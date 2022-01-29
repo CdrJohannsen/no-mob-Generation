@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/nomobgeneration/mixin/MobPopulationMixin": {
+      "populateEntities": "Lnet/minecraft/class_1948;method_8661(Lnet/minecraft/class_5425;Lnet/minecraft/class_1959;Lnet/minecraft/class_1923;Ljava/util/Random;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/nomobgeneration/mixin/MobPopulationMixin": {
+        "populateEntities": "Lnet/minecraft/class_1948;method_8661(Lnet/minecraft/class_5425;Lnet/minecraft/class_1959;Lnet/minecraft/class_1923;Ljava/util/Random;)V"
+      }
+    }
+  }
+}

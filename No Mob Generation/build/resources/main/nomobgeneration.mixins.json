@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nomobgeneration.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MobPopulationMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

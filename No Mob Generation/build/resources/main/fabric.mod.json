@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "nomobgeneration",
+  "version": "1.0.0",
+
+  "name": "No Mob Generation",
+  "description": "Simply stops spawning of animals in populating chunks.
+This helps to prevent lag",
+  "authors": [
+    "Cdr_Johannsen",
+    "Idea by muslimitmilch"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CdrJohannsen",
+    "sources": "https://github.com/CdrJohannsen?tab=repositories"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nomobgeneration/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nomobgeneration.NoMobGeneration"
+    ]
+  },
+  "mixins": [
+    "nomobgeneration.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
